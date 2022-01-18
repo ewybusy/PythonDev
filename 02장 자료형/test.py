@@ -9,6 +9,9 @@ total = int(kor) + int(eng) + int(math) # str --> int
 avg = total / 3
 
 print(name, "님의 총점=", total, "평균= ", avg, "입니다.")
+print("%s님의 총점= %d, 평균= %f입니다." % (name, total, avg))
+print("{}님의 총점= {}}, 평균= {}}입니다.".format(name, total, avg))
+print(f"{name}님의 총점= {total}, 평균= {avg}입니다.")
 
 # print("입력하신 이름은 : ", name, "입니다.")
 # print(type(data))
